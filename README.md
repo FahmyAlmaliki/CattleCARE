@@ -1,22 +1,16 @@
-# Welcome to your Lovable project
+# CattleCARE - Smart Cattle Farm Management System
 
-## Project info
+## Project Description
 
-**URL**: https://lovable.dev/projects/76d1552e-52b9-4d27-9e01-46c9032f67f1
+CattleCARE is an AI-powered cattle farm management and monitoring system built with modern web technologies. This application helps farmers monitor their cattle health, track farm activities, and manage their livestock efficiently.
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/76d1552e-52b9-4d27-9e01-46c9032f67f1) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -24,10 +18,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/FahmyAlmaliki/CattleCARE.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd CattleCARE
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -54,20 +48,44 @@ npm run dev
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - Frontend framework
+- **Shadcn/ui** - Modern UI component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Capacitor** - Cross-platform native runtime
+
+## Features
+
+- 🐄 **Cattle Health Monitoring** - Track individual cattle health status
+- 📊 **Dashboard Analytics** - Visual insights into farm performance
+- 🤖 **AI Chatbot** - Intelligent assistance for farm management
+- 📱 **Mobile Responsive** - Access from any device
+- 🔔 **Real-time Alerts** - Get notified of important events
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/76d1552e-52b9-4d27-9e01-46c9032f67f1) and click on Share -> Publish.
+You can deploy this project using various platforms:
 
-## Can I connect a custom domain to my Lovable project?
+- **Vercel**: Connect your GitHub repo for automatic deployments
+- **Netlify**: Deploy directly from Git
+- **GitHub Pages**: Use GitHub Actions for static deployment
+- **Local**: Build and serve using `npm run build` and `npm run preview`
 
-Yes, you can!
+## Contributing
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+CattleCARE Team - [@cattlecare](https://github.com/FahmyAlmaliki)
+
+Project Link: [https://github.com/FahmyAlmaliki/CattleCARE](https://github.com/FahmyAlmaliki/CattleCARE)
